@@ -1,0 +1,23 @@
+<p>
+    property-binding works!
+</p>
+<!--
+<button mat-button color="primary">
+    My firts button
+</button>
+
+<button mat-button color="warn">
+    My firts button
+</button>
+-->
+<button mat-button [color]="color">
+    My firts button
+</button>
+
+<button mat-button [disabled]="btnDisable">
+    My second button
+</button>
+
+<button mat-button [color]="colors[idx]">
+    My last button
+</button>
